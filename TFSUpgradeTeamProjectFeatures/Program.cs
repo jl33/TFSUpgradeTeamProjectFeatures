@@ -67,7 +67,7 @@ namespace TFSUpgradeTeamProjectFeatures
             }
         }
 
-        private static string GetTfsInstallationDir(string tfsVersion = "15.0")
+        private static string GetTfsInstallationDir(string tfsVersion = "16.0")
         {
             string registryKeyString = string.Format(@"SOFTWARE\Microsoft\TeamFoundationServer\{0}", tfsVersion);
 

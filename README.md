@@ -1,7 +1,7 @@
 # TFSUpgradeTeamProjectFeatures
 Tool to upgrade existing/old Team Projects to latest features
 
-Used for upgrading Team Projects after a migration to **TFS 2017 Update 1**. Instead of running the Configure Features wizard one by one for many different Team Projects spread across multiple Team Project Collections, this tool allows to scan all available Team Projects and to apply new features of the recommended Team Project process template.
+Used for upgrading Team Projects after a migration to **TFS 2018 RTM**. Instead of running the Configure Features wizard one by one for many different Team Projects spread across multiple Team Project Collections, this tool allows to scan all available Team Projects and to apply new features of the recommended Team Project process template.
 
 The reposistory contains one solution with a console application project (created with Visual Studio 2017).
 
@@ -18,7 +18,7 @@ The config file contains three mandatory configuration settings:
 
 ## How to run?
 
-Copy the .exe and exe.config file to the bin folder of the TFS Application Tier server (C:\Program Files\Microsoft Team Foundation Server 15.0\Application Tier\Web Services\bin) and run it from the command line. Be sure to use this tool during your trial-upgrade before applying this into a production environment.
+Copy the .exe and exe.config file to the bin folder of the TFS Application Tier server (C:\Program Files\Microsoft Team Foundation Server 2018\Application Tier\Web Services\bin) and run it from the command line. Be sure to use this tool during your trial-upgrade before applying this into a production environment.
 
 ## LogFiles?
 
@@ -29,4 +29,6 @@ The tool will write some log messages to the console, but it also creates a dedi
 * https://www.visualstudio.com/en-us/docs/work/customize/configure-features-after-upgrade#program-updates
 
 * Features4tfs: https://features4tfs.codeplex.com/
+
+* https://github.com/pietergheysens/TFSUpgradeTeamProjectFeatures
 
